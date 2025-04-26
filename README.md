@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **React Next.js**
 
-- 👨‍💻 All of my projects are available at [cproto.codecommerze.com](cproto.codecommerze.com)
+- 👨‍💻 All of my projects are available at [codecommerze.xyz/](https://codecommerze.xyz/)
 
 - 📫 How to reach me **codecommerze@gmail.com**
 
