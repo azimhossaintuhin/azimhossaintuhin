@@ -168,17 +168,7 @@ sequenceDiagram
 ```
 
 
-## 📦 Typical Project Structure
-```text
-omnihrm/
-├─ apps/                # domain modules: auth, employees, payroll, attendance
-├─ core/                # settings, db, cache, celery, logging
-├─ api/                 # routers/schemas, versioning
-├─ docs/                # diagrams, ADRs, OpenAPI
-├─ ops/                 # Docker, k8s, terraform, helm
-├─ tests/
-└─ manage.py
-```
+
 
 ## 🔐 Security & Best Practices
 - Cloudflare WAF + rate limits; strict TLS; security headers (CSP/HSTS)
