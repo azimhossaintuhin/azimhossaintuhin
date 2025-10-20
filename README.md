@@ -167,42 +167,6 @@ sequenceDiagram
   S-->>U: 200 JSON
 ```
 
-### 3) Database ER (OmniHRM Core)
-```mermaid
-erDiagram
-  USERS ||--o{ SESSIONS : has
-  USERS ||--o{ USER_ROLES : has
-  ROLES ||--o{ USER_ROLES : maps
-  DEPARTMENTS ||--o{ EMPLOYEES : owns
-  EMPLOYEES ||--o{ ATTENDANCE : logs
-  EMPLOYEES ||--o{ PAYSLIPS : generates
-
-  USERS { uuid id PK; varchar email UK; varchar password_hash; timestamptz created_at }
-  ROLES { uuid id PK; varchar name UK }
-  EMPLOYEES { uuid id PK; uuid user_id FK; uuid department_id FK; varchar status }
-  ATTENDANCE { uuid id PK; uuid employee_id FK; date work_date; time check_in; time check_out }
-  PAYSLIPS { uuid id PK; uuid employee_id FK; numeric gross; numeric net; timestamptz generated_at }
-```
-
-### 4) Containerized Deployment (K8s)
-```mermaid
-graph TD
-  subgraph Cluster
-    Ingress[Ingress Nginx] --> API[omnihrm-api]
-    Ingress --> AUTH[auth-service]
-    API --> PG[(PostgreSQL)]
-    API --> REDIS[(Redis)]
-    API --> MQ[(RabbitMQ)]
-    WORKER[Celery Workers] --> MQ
-    CRON[CronJobs] --> API
-  end
-  CF[Cloudflare DNS+WAF] --> Ingress
-  S3[(Object Storage)] --> API
-  API -. metrics .-> PROM[Prometheus]
-  Ingress -. logs .-> LOKI[Log Aggregation]
-```
-
----
 
 ## 📦 Typical Project Structure
 ```text
