@@ -23,7 +23,7 @@ I’m currently building **OmniHRM**, a modular HR platform. I enjoy system desi
 - 🔭 Current: **OmniHRM** (modular HR platform)
 - 🌱 Learning: **React / Next.js** for admin consoles
 - 🌐 Portfolio: **[azimhossaintuhin.com](https://azimhossaintuhin.com)**
-- 📫 Email: **codecommerze@gmail.com**
+- 📫 Email: **tuhin.dev07@gmail.com**
 
 <br clear="right"/>
 
@@ -41,7 +41,7 @@ I’m currently building **OmniHRM**, a modular HR platform. I enjoy system desi
   <a href="https://linkedin.com/in/azim-hossain-tuhin-938190287" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:codecommerze@gmail.com" target="_blank">
+  <a href="mailto:tuhin.dev07@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://fb.com/tuhin.1st" target="_blank">
@@ -52,7 +52,7 @@ I’m currently building **OmniHRM**, a modular HR platform. I enjoy system desi
   </a>
 </p>
 
-📧 **Email:** codecommerze@gmail.com  
+📧 **Email:** tuhin.dev07@gmail.com  
 🌐 **Website:** [azimhossaintuhin.com](https://azimhossaintuhin.com)
 
 ---
